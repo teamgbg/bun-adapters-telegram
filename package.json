@@ -1,0 +1,141 @@
+{
+  "_generated": {
+    "system": "package-json@1.0.0",
+    "status": "generated",
+    "edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+  },
+  "name": "@teamscala/telegram",
+  "capability": "Telegram surface: tdl-backed Telegram client wrapper with central log integration, single sanctioned Telegram integration.",
+  "tier": "adapters",
+  "type": "module",
+  "version": "1.0.189",
+  "description": "Telegram surface: tdl-backed Telegram client wrapper with central log integration, single sanctioned Telegram integration.",
+  "imports": {
+    "#telegram/*": "./src/*",
+    "#telegram/*.ts": "./src/*.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@teamscala/logger": "*",
+    "@teamscala/os": "*",
+    "prebuilt-tdlib": "*",
+    "tdl": "*"
+  },
+  "devDependencies": {
+    "bun-types": "*",
+    "@happy-dom/global-registrator": "*",
+    "@testing-library/react": "*"
+  },
+  "exports": {
+    "./auth-actions": {
+      "types": "./src/auth-actions.d.ts",
+      "default": "./src/auth-actions.ts"
+    },
+    "./auth-actions.ts": {
+      "types": "./src/auth-actions.d.ts",
+      "default": "./src/auth-actions.ts"
+    },
+    "./auth-handlers": {
+      "types": "./src/auth-handlers.d.ts",
+      "default": "./src/auth-handlers.ts"
+    },
+    "./auth-handlers.ts": {
+      "types": "./src/auth-handlers.d.ts",
+      "default": "./src/auth-handlers.ts"
+    },
+    "./auth-lifecycle": {
+      "types": "./src/auth-lifecycle.d.ts",
+      "default": "./src/auth-lifecycle.ts"
+    },
+    "./auth-lifecycle.ts": {
+      "types": "./src/auth-lifecycle.d.ts",
+      "default": "./src/auth-lifecycle.ts"
+    },
+    "./auth-status": {
+      "types": "./src/auth-status.d.ts",
+      "default": "./src/auth-status.ts"
+    },
+    "./auth-status.ts": {
+      "types": "./src/auth-status.d.ts",
+      "default": "./src/auth-status.ts"
+    },
+    "./client": {
+      "types": "./src/client.d.ts",
+      "default": "./src/client.ts"
+    },
+    "./client.ts": {
+      "types": "./src/client.d.ts",
+      "default": "./src/client.ts"
+    },
+    "./client-lifecycle": {
+      "types": "./src/client-lifecycle.d.ts",
+      "default": "./src/client-lifecycle.ts"
+    },
+    "./client-lifecycle.ts": {
+      "types": "./src/client-lifecycle.d.ts",
+      "default": "./src/client-lifecycle.ts"
+    },
+    "./client-store": {
+      "types": "./src/client-store.d.ts",
+      "default": "./src/client-store.ts"
+    },
+    "./client-store.ts": {
+      "types": "./src/client-store.d.ts",
+      "default": "./src/client-store.ts"
+    },
+    "./generated/operations.gen": {
+      "types": "./src/generated/operations.gen.d.ts",
+      "default": "./src/generated/operations.gen.ts"
+    },
+    "./generated/operations.gen.ts": {
+      "types": "./src/generated/operations.gen.d.ts",
+      "default": "./src/generated/operations.gen.ts"
+    },
+    "./generated/types.gen": {
+      "types": "./src/generated/types.gen.d.ts",
+      "default": "./src/generated/types.gen.ts"
+    },
+    "./generated/types.gen.ts": {
+      "types": "./src/generated/types.gen.d.ts",
+      "default": "./src/generated/types.gen.ts"
+    },
+    "./mount": {
+      "types": "./src/mount.d.ts",
+      "default": "./src/mount.ts"
+    },
+    "./mount.ts": {
+      "types": "./src/mount.d.ts",
+      "default": "./src/mount.ts"
+    },
+    "./send-handler": {
+      "types": "./src/send-handler.d.ts",
+      "default": "./src/send-handler.ts"
+    },
+    "./send-handler.ts": {
+      "types": "./src/send-handler.d.ts",
+      "default": "./src/send-handler.ts"
+    },
+    "./session-autoload": {
+      "types": "./src/session-autoload.d.ts",
+      "default": "./src/session-autoload.ts"
+    },
+    "./session-autoload.ts": {
+      "types": "./src/session-autoload.d.ts",
+      "default": "./src/session-autoload.ts"
+    },
+    "./types": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    },
+    "./types.ts": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    }
+  },
+  "repository": "https://github.com/teamgbg/bun-adapters-telegram",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
